@@ -1,0 +1,25 @@
+body{
+    margin:20px;
+}
+
+.menu-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.firstImage{
+    width: 90vw;
+}
+
+.mini-articles{
+    display: flex;
+}
+.popular-news{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
