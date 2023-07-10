@@ -1,25 +1,75 @@
-body{
-    margin:20px;
+/* ## Colors
+
+### Primary
+
+- Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%)
+
+### Neutral
+
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%) 
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700, 800*/
+:root {
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+    --font-size: 15px;
 }
 
-.menu-icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 
-}
-.firstImage{
-    width: 90vw;
+body {
+  margin: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
-.mini-articles{
-    display: flex;
+.menu-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.popular-news{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
+.firstImage {
+  width: 90vw;
 }
 
+.popular-news {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.mini-articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.mini-article-images {
+  width: 40%;
+  height: auto;
+}
+
+.entry>h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--grayish-blue);
+}
