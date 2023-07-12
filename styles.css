@@ -109,3 +109,12 @@ hr{
   margin:30px 0;
   border: 1px solid var(--grayish-blue);
 }
+button {
+  background-color: var(--soft-red);
+  color: var(--off-white);
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+}
