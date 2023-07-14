@@ -56,6 +56,12 @@ body {
   gap: 50px;
 }
 
+.all-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+}
 .mini-articles {
   display: flex;
   flex-direction: row;
