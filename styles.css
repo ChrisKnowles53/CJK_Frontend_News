@@ -60,7 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 60px;
+  gap: 50px;
 }
 .mini-articles {
   display: flex;
@@ -119,8 +119,22 @@ button {
   background-color: var(--soft-red);
   color: var(--off-white);
   border: none;
-  padding: 10px 20px;
+  padding: 18px 38px;
   font-size: 15px;
   font-weight: 400;
   cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+.first-article>p{
+  font-size: 15px;
+  color: var(--dark-grayish-blue);
+  line-height: 2;
+  
+  margin-bottom: 25px;
+}
+
+.first-article>h1{
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-style: bold;
 }
