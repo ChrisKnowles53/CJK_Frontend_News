@@ -28,8 +28,9 @@ hamburgerMenu.addEventListener("click", () => {
       <li>Categories</li>
     `;
 
-    let closeButton = document.createElement("div");
-    closeButton.innerHTML = "X";
+    let closeButton = document.createElement("img");
+    closeButton.src = "./assets/images/icon-menu-close.svg";
+
     closeButton.classList.add("close-button");
     closeButton.addEventListener("click", closeMenu);
 
